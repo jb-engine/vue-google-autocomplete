@@ -138,7 +138,7 @@
             };
           }
 
-          options.fields = ["name", "geometry.location", "place_id", "formatted_address"];
+          options.fields = ["name", "geometry.location", "place_id", "formatted_address", "address_components"];
 
           this.autocomplete = new google.maps.places.Autocomplete(
                 document.getElementById(this.id),
